@@ -14,16 +14,16 @@ def decompor(numero):
     
     if(numero < 10):
         return Decomposto.append(int(numero_str[0]))
-    elif(numero > 10 and numero < 100):
+    elif(numero >= 10 and numero < 100):
         Decomposto.append(int(numero_str[0])*10) 
         Decomposto.append(int(numero_str[1]))
         return Decomposto
-    elif(numero > 100 and numero < 1000):
+    elif(numero >= 100 and numero < 1000):
         Decomposto.append(int(numero_str[0])*100)
         Decomposto.append(int(numero_str[1])*10)
         Decomposto.append(int(numero_str[2]))
         return Decomposto
-    elif(numero > 1000 and numero < 10000):
+    elif(numero >= 1000 and numero < 10000):
         Decomposto.append(int(numero_str[0])*1000)
         Decomposto.append(int(numero_str[1])*100)
         Decomposto.append(int(numero_str[2])*10)
