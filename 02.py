@@ -1,0 +1,1 @@
+print("Your number is", input("Enter your number: "))

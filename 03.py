@@ -1,0 +1,1 @@
+print("A soma é igual a", int(input("Digite um número: ")) + int(input("Digite outro número: ")))

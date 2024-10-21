@@ -1,0 +1,1 @@
+print("A média de notas é: ", (int(input("Digite a primeira nota: ")) + int(input("Digite a segunda nota: ")) + int(input("Digite a terceira nota: ")) + int(input("Digite a quarta nota: ")))/4)
